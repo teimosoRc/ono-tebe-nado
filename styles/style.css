@@ -36,7 +36,6 @@
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
-
   line-height: 24.3px;
 }
 
@@ -56,16 +55,11 @@
 
 .address{
   max-width: 238px;
-  
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-
-line-height: 24.3px;
-
-
-
+  line-height: 24.3px;
 }
 
 .header__address-link{
@@ -154,4 +148,193 @@ line-height: 24.3px;
   text-transform: uppercase;
   background: transparent;
   cursor: pointer;
+}
+
+/* lots */
+
+.lots {
+  margin-top: 179px;
+}
+
+.lots__heading{
+  margin-left: 40px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.lots__card-list{
+  display: flex;
+  gap: 25px;
+  margin-top: 27px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.lots__card-list-item{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.card-link{
+  text-decoration: none;
+}
+
+.card{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 563px;
+  padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_film{
+  background-image: url(/images/card-lot-01.jpg);
+}
+
+.card_type_book{
+  background-image: url(/images/card-lot-02.jpg);
+}
+
+.card_type_picture{
+  background-image: url(/images/card-lot-03.jpg);
+}
+
+.card__title{
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.4px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.card__text{
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.lots__look-more-link{
+  margin-top: 30px;
+  margin-left: 40px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.48px;
+  text-align: left;
+  text-underline-offset:4px;
+}
+
+/* About */
+
+.about{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 146px;
+}
+
+.about__column{
+  margin-top: 133px;
+}
+
+.about__logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  margin: 35px 47px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.about__logo-image{
+  width: 148px;
+  height: 114px;
+}
+
+.about__title{
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-transform: uppercase;
+}
+
+.about__text{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 100px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* Footer */
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 50px;
+  margin-top: 180px;
+  margin-bottom: 88px;
+}
+
+.footer__menu{
+  margin: auto;
+}
+
+.footer__menu-list{
+
+}
+
+.footer__menu-list-item{
+  list-style: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-align: center;
+
+}
+
+.footer__menu-link{
+
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list{
+  display: flex;
+  justify-content: end;
+  gap: 48px;
+}
+
+.footer__social-list-item{
+  list-style: none;
+}
+
+.footer__social-link{}
+
+.footer__social-icon{
+  width: 48px;
+  height: 48px;
 }
